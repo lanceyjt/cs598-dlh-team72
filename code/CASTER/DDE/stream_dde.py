@@ -36,7 +36,7 @@ COLAB = 'google.colab' in sys.modules
 if COLAB:
     dataFolder = '/content/drive/MyDrive/CS598-DLH-Team72/code/CASTER/DDE/data'
 else:
-    dataFolder = '/home/ec2-user/SageMaker/CASTER/DDE/data'
+    dataFolder = '/home/ec2-user/SageMaker/cs598-dlh-team72/code/CASTER/DDE/data'
 
 vocab_path = dataFolder + '/codes.txt'
 bpe_codes_fin = codecs.open(vocab_path)
