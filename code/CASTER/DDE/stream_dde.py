@@ -5,6 +5,7 @@ from torch.utils import data
 
 from subword_nmt.apply_bpe import BPE
 import codecs
+import sys
 
 '''
 DataFolder = './data'
@@ -30,9 +31,12 @@ ValData which return v_d, v_f, label for DDI only
 
 '''
 
+COLAB = 'google.colab' in sys.modules
 #dataFolder = './data'
-dataFolder = '/home/ec2-user/SageMaker/CASTER/DDE/data'
-
+if COLAB:
+    dataFolder = '/content/drive/MyDrive/CS598-DLH-Team72/code/CASTER/DDE/data'
+else:
+    dataFolder = '/home/ec2-user/SageMaker/CASTER/DDE/data'
 
 vocab_path = dataFolder + '/codes.txt'
 bpe_codes_fin = codecs.open(vocab_path)
