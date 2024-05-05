@@ -4,6 +4,7 @@
  * Jingtian Yao (yao28@illinois.edu)
 
 #### **Github Repo:** https://github.com/lanceyjt/cs598-dlh-team72
+#### **Demo Video**: https://drive.google.com/file/d/18smbwUkFx6byCZprPIbEsoRQQPABFM9c/view?usp=drive_link
 
 This Github repo intends to reproduce the [CASTER (Huang et al., 2020)](https://arxiv.org/abs/1911.06446) neural network framework and experiments discussed in the original paper. It incorporates original code sourced from the GitHub repository: https://github.com/kexinhuang12345/CASTER/tree/master.
 
